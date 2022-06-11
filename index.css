@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/1a/bc/ba/1abcbaa1dae0f4fd51afd893082ea992.jpg);
+  height: 100vh;
+  Background-repeat: no-repeat;
+  Background-size: cover;
+}
+
+#container {
+  background-image: linear-gradient(rgb(131, 1, 174), rgba(255, 0, 162, 0.803));
+  margin-top: 250px;
+  width: 80%;
+  max-width: 400px;
+  margin-inline: auto;
+  border-radius: 30px;
+  Padding: 1rem;
+}
+
+h1 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  color: rgb(255, 255, 255);
+  margin-inline: auto;
+  font-size: 28px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+  margin-bottom: 20px;
+  color:  rgb(255, 255, 255);
+  font-size: 85%;
+  font-family: 'Poppins', sans-serif;
+}
+
+input, button {
+  display: block;
+  width: 90%;
+  font-size: 20px;
+  margin-inline: auto;
+  
+}
+
+input {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 12px;
+}
+
+button {
+  border-radius: 50px;
+  border: none;
+  background-image: linear-gradient(rgb(201, 29, 249), rgb(67, 1, 143));
+  color: white;
+  transition: filter .3s;
+  padding: 20px;
+}
+
+button:hover {
+  filter: brightness(1.2);
+  cursor: pointer;
+}
+
+#resposta {
+  margin-top: 16px;
+  transition: opacity 1s;
+}
+
+#resposta div {
+  font-weight: normal;
+  font-size: 12px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
